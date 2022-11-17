@@ -95,4 +95,12 @@ p {
   .mb-3 {
     text-align: center;
   }
+
+  .hp-des {
+    text-align: center;
+  }
+
+  .hp-images {
+    display: none;
+  }
 }
