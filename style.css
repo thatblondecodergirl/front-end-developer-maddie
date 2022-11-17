@@ -118,4 +118,8 @@ p {
   .email-link {
     font-size: 20px !important;
   }
+
+  .about-heading {
+    font-size: 40px !important;
+  }
 }
