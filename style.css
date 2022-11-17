@@ -123,3 +123,8 @@ p {
     font-size: 40px !important;
   }
 }
+
+.hero {
+  background-color: #f9f7fe;
+  text-align: center;
+}
