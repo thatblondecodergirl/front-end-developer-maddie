@@ -15,11 +15,11 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 96px !important;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 48px !important;
 }
 
 h3 {
@@ -94,6 +94,7 @@ p {
 @media (max-width: 576px) {
   .mb-3 {
     text-align: center;
+    font-size: 25px !important;
   }
 
   .hp-des {
@@ -108,5 +109,9 @@ p {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+
+  .my-name {
+    font-size: 30px !important;
   }
 }
