@@ -16,6 +16,7 @@ h3 {
 
 h1 {
   font-size: 96px !important;
+  font-family: "Playfair Display", serif !important;
 }
 
 h2 {
@@ -95,6 +96,15 @@ p {
   font-family: "Playfair Display", serif !important;
 }
 
+.inquiry h1 {
+  font-family: "Playfair Display", serif !important;
+  font-size: 48px !important;
+}
+
+.inquiry p {
+  font-size: 18px !important;
+}
+
 @media (max-width: 576px) {
   .mb-3 {
     text-align: center;
@@ -135,4 +145,13 @@ p {
 
 .hero h1 {
   font-family: "Playfair Display", serif;
+}
+
+.inquiry {
+  width: 1160px;
+  height: 200px;
+  left: 67px;
+  top: 3078px;
+  background: #f9f7fe;
+  border-radius: 20px;
 }
