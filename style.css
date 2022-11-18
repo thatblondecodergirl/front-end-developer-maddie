@@ -35,7 +35,7 @@ h3 {
 }
 
 h4 {
-  font-size: 48px;
+  font-size: 48px !important;
 }
 
 p {
@@ -79,6 +79,7 @@ p {
   background-color: #f9f7fe;
   text-align: center;
   padding: 160px 20px;
+  margin: 0 auto;
 }
 
 .hero h1 {
@@ -106,9 +107,11 @@ footer {
 }
 
 footer .email-link {
+  font-family: var(--paragraph-font-family);
   text-decoration: none;
   color: black;
   font-size: 24px;
+  font-weight: 500;
 }
 
 footer .email-link:hover {
@@ -189,7 +192,7 @@ footer .contact-box p {
     font-size: 40px !important;
   }
 
-  footer .contact-box {
-    padding: 30px;
+  body {
+    width: 100%;
   }
 }
