@@ -48,12 +48,14 @@ p {
 
 .primary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 .secondary-link {
@@ -105,6 +107,43 @@ p {
   font-size: 18px !important;
 }
 
+.hero {
+  background-color: #f9f7fe;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 96px;
+}
+
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
+
+.hero h3 {
+  color: #272142;
+}
+
+.hero p {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  margin: 0;
+}
+
+.inquiry {
+  width: 1160px;
+  height: 200px;
+  left: 67px;
+  top: 3078px;
+  background: #f9f7fe;
+  border-radius: 20px;
+}
+
 @media (max-width: 576px) {
   .mb-3 {
     text-align: center;
@@ -136,22 +175,4 @@ p {
   .about-heading {
     font-size: 40px !important;
   }
-}
-
-.hero {
-  background-color: #f9f7fe;
-  text-align: center;
-}
-
-.hero h1 {
-  font-family: "Playfair Display", serif;
-}
-
-.inquiry {
-  width: 1160px;
-  height: 200px;
-  left: 67px;
-  top: 3078px;
-  background: #f9f7fe;
-  border-radius: 20px;
 }
