@@ -34,6 +34,10 @@ h3 {
   font-size: 24px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-size: 16px;
   line-height: 30px;
@@ -71,46 +75,6 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
-.about-paragraphs {
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
-.mb-3 {
-  margin-bottom: 1rem !important;
-  font-family: "Playfair Display", serif !important;
-}
-
-.inquiry h1 {
-  font-family: "Playfair Display", serif !important;
-  font-size: 48px !important;
-}
-
-.inquiry p {
-  font-size: 18px !important;
-}
-
 .hero {
   background-color: #f9f7fe;
   text-align: center;
@@ -136,18 +100,59 @@ p {
   margin: 0;
 }
 
-.inquiry {
-  width: 1160px;
-  height: 200px;
-  left: 67px;
-  top: 3078px;
-  background: #f9f7fe;
-  border-radius: 20px;
+footer {
+  margin: 60px 0;
+  padding: 67px 213px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .primary-link a {
+  border: 18px 30px;
+  gap: 10px;
+  margin-top: 71px;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 @media (max-width: 576px) {
   h2 {
-    font-size: 30px !important;
+    font-size: 44px !important;
+  }
+
+  h4 {
+    font-size: 26px;
   }
 
   .hero p {
@@ -182,5 +187,9 @@ p {
 
   .about-heading {
     font-size: 40px !important;
+  }
+
+  footer .contact-box {
+    padding: 30px;
   }
 }
