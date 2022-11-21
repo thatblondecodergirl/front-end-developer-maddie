@@ -135,6 +135,10 @@ p {
   font-size: 14px;
 }
 
+.my-name {
+  font-size: 54px !important;
+}
+
 footer {
   margin: 60px 0;
   padding: 67px 213px;
