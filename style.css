@@ -44,6 +44,10 @@ p {
   font-family: var(--paragraph-font-family);
 }
 
+.text-center {
+  text-align: center !important;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -216,6 +220,10 @@ footer .contact-box {
 
 footer .contact-box p {
   margin: 0;
+}
+
+footer p {
+  text-align: center !important;
 }
 
 @media (max-width: 576px) {
