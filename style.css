@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --primary-color: #4e6d4b;
+  --secondary-color: #bbc8b9;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Playfair Display", serif;
   --paragraph-font-family: "Poppins", sans-serif;
@@ -23,7 +23,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px !important;
+  font-size: 80px !important;
 }
 
 h2 {
@@ -80,7 +80,7 @@ p {
 }
 
 .hero {
-  background-color: #f9f7fe;
+  background-color: #bbc8b9;
   text-align: center;
   padding: 160px 20px;
   margin: 0 auto;
@@ -97,7 +97,7 @@ p {
 }
 
 .hero h3 {
-  color: #272142;
+  color: #436240;
 }
 
 .hero p {
@@ -144,7 +144,7 @@ p {
 }
 
 .logo {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 .profile-picture {
@@ -180,7 +180,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142b2;
+  color: #456c44b2;
   transition: all 100ms ease-in-out;
 }
 
